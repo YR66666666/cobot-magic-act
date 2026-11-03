@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 训练产物（体积大，不进仓库）
+*.ckpt
+*.hdf5
+*.pkl
+*.log
+train_val_*.png
+
+# 视频 / 临时文件
+*.mp4
+*.mkv
+*.avi
+.DS_Store
